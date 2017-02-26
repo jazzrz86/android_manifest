@@ -12,7 +12,7 @@
            remote="github"
            sync-c="true" />
 
-<!-- kenzo -->
+  <!-- kenzo -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
   <project path="device/xiaomi/kenzo" name="LineageOS/android_device_xiaomi_kenzo" />
   <project path="device/xiaomi/msm8956-common" name="LineageOS/android_device_xiaomi_msm8956-common" />
@@ -20,7 +20,7 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
 
-<!-- BEGIN AOSP -->
+  <!-- BEGIN AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
@@ -306,9 +306,9 @@
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />
   <project path="system/webservd" name="platform/system/webservd" remote="aosp" />
   <project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
-<!-- END AOSP -->
+  <!-- END AOSP -->
 
-<!-- BEGIN CYANOGENMOD -->
+  <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="LineageOS/android_build" groups="pdk,tradefed" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
