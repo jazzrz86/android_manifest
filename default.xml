@@ -313,7 +313,7 @@
   <!-- END AOSP -->
 
   <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="LineageOS/android_build" groups="pdk">
+  <project path="build" name="LineageOS/android_build" groups="pdk" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
