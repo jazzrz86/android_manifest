@@ -13,12 +13,23 @@
            sync-c="true" />
 
   <!-- kenzo -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
   <project path="device/xiaomi/kenzo" name="LineageOS/android_device_xiaomi_kenzo" />
   <project path="device/xiaomi/msm8956-common" name="LineageOS/android_device_xiaomi_msm8956-common" />
   <project path="kernel/xiaomi/msm8956" name="LineageOS/android_kernel_xiaomi_msm8956" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+
+  <!-- pme -->
+  <project path="device/htc/pme" name="LineageOS/android_device_htc_pme" />
+  <project path="kernel/htc/msm8996" name="LineageOS/android_kernel_htc_msm8996" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" />
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-14.1" />
+
+  <!-- device common -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
   <!-- Launcher3 -->
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
