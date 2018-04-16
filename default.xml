@@ -225,7 +225,7 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="refs/tags/android-n-mr2-preview-2" />
+  <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="cee78199bbfae81f54a40671db47096f5f32cdad" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" remote="aosp" />
@@ -251,8 +251,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
- <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -360,6 +359,7 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/chips" name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
@@ -454,12 +454,8 @@
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
-  <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" />
