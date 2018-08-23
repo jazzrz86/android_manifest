@@ -65,7 +65,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" remote="aosp" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" remote="aosp" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" remote="aosp" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" groups="pdk" remote="aosp" />
@@ -295,7 +294,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
+  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r36" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
@@ -450,6 +449,7 @@
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
