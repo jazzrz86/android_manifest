@@ -370,6 +370,9 @@
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,pdk-fs" remote="aosp" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts" remote="aosp" />
   <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk-fs" remote="aosp" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" remote="aosp" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
   <project path="toolchain/binutils" name="toolchain/binutils" groups="pdk" remote="aosp" />
   <!-- END AOSP -->
 
