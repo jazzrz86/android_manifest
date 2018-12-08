@@ -31,6 +31,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" remote="aosp" />
