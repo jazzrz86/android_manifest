@@ -15,6 +15,7 @@
            sync-j="4" />
 
   <!-- starlte -->
+  <project path="device/samsung/starlte" name="LineageOS/android_device_samsung_starlte" />
   <project path="device/samsung/universal9810-common" name="LineageOS/android_device_samsung_universal9810-common" />
   <project path="kernel/samsung/universal9810" name="LineageOS/android_kernel_samsung_universal9810" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
@@ -357,6 +358,16 @@
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
+  <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/sts" name="platform/test/sts" groups="sts,pdk" remote="aosp" />
+  <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" remote="aosp" />
+  <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,pdk-fs" remote="aosp" />
+  <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts" remote="aosp" />
+  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk-fs" remote="aosp" />
   <project path="toolchain/binutils" name="toolchain/binutils" groups="pdk" remote="aosp" />
   <!-- END AOSP -->
 
